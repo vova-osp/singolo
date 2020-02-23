@@ -6,35 +6,49 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Singolo</title>
+    <link rel="stylesheet" href="singolo1.css">
 </head>
 <body>
-<header>
+<header class="header">
     <div class="container">
-        <div class="logo"></div>
-        <nav class="nav">
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">portfolio</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
+        <div class="header__content">
+            <div class="logo">
+                <a href="singolo1.html">SINGOLO<span>*</span></a>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a class="active" href="#">home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>
+<div class="bg-line bg-line_blue"></div>
 <div class="section-slider">
     <div class="container">
         <div class="slider">
-            <div class="slider__item"></div>
+            <div class="slider__item">
+                <img class="slider__img slider__img_ver" src="./assets/images/slider/iphone-vertical.png" alt="iphone-vertical">
+                <img class="slider__img slider__img_hor" src="./assets/images/slider/iphone-horizontal.png" alt="iphone-horizontal">
+            </div>
             <div class="slider__nav">
-                <button class="btn-slider btn-slider_prev" type="button"></button>
-                <button class="btn-slider btn-slider_next" type="button"></button>
+                <button class="btn-slider btn-slider_prev" type="button">
+                    <img src="./assets/images/slider/prev.png" alt="arrow prev">
+                </button>
+                <button class="btn-slider btn-slider_next" type="button">
+                    <img src="./assets/images/slider/next.png" alt="arrow next">
+                </button>
                 <div class="slider__next"></div>
             </div>
         </div>
     </div>
 </div>
-<section>
+<div class="bg-line bg-line_red"></div>
+<section class="section-services">
     <div class="container">
         <div class="services">
             <h2 class="title">Our Services</h2>
@@ -49,7 +63,7 @@
                 <div class="column">
                     <div class="icon">
                         <div class="icon__img">
-                            <img src="" alt="icon">
+                            <img src="./assets/images/icon/pen.svg" alt="icon">
                         </div>
                         <div class="icon__desc">
                             <div class="icon__title">
@@ -67,7 +81,7 @@
                 <div class="column">
                     <div class="icon">
                         <div class="icon__img">
-                            <img src="" alt="icon">
+                            <img src="./assets/images/icon/buib.svg" alt="icon">
                         </div>
                         <div class="icon__desc">
                             <div class="icon__title">
@@ -85,7 +99,7 @@
                 <div class="column">
                     <div class="icon">
                         <div class="icon__img">
-                            <img src="" alt="icon">
+                            <img src="./assets/images/icon/heart.svg" alt="icon">
                         </div>
                         <div class="icon__desc">
                             <div class="icon__title">
@@ -105,7 +119,7 @@
                 <div class="column">
                     <div class="icon">
                         <div class="icon__img">
-                            <img src="" alt="icon">
+                            <img src="./assets/images/icon/phone.svg" alt="icon">
                         </div>
                         <div class="icon__desc">
                             <div class="icon__title">
@@ -123,7 +137,7 @@
                 <div class="column">
                     <div class="icon">
                         <div class="icon__img">
-                            <img src="" alt="icon">
+                            <img src="./assets/images/icon/bubble.svg" alt="icon">
                         </div>
                         <div class="icon__desc">
                             <div class="icon__title">
@@ -141,7 +155,7 @@
                 <div class="column">
                     <div class="icon">
                         <div class="icon__img">
-                            <img src="" alt="icon">
+                            <img src="./assets/images/icon/star.svg" alt="icon">
                         </div>
                         <div class="icon__desc">
                             <div class="icon__title">
@@ -160,6 +174,6 @@
         </div>
     </div>
 </section>
-<div class="bg-line"></div>
+<div class="bg-line bg-line_white"></div>
 </body>
 </html>
